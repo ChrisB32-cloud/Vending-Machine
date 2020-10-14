@@ -1,19 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgba(0,0,0, 0.1); */
+  
+}
+
+
+
 .App {
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column;
+  align-content: center; */
+  /* align-items: center; */
+  padding: 10px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+.App img {
+  height: 450px;
+  width: 450px;
+}
+
+.App nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(100, 105, 110);
+  padding: 50px;
+}
+
+.App nav .links-link {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.App nav .navLinksAct {
+  
+  color: aliceblue;
+  text-decoration: none;
+
+}
+
+.App .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.App .container .sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.App .container .sub-container h1 {
+  padding-bottom: 10px;
+}
+
+.App .vend-card {
+  padding: 20px;
+  background-color: rgba(68, 68, 68, 0.5);
+  width: 200px;
+  height: 200px;
+  
+}
+
+.App .vend-card h2 {
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.App .myContents {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,9 +107,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +120,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
