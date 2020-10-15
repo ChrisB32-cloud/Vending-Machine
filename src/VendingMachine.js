@@ -9,6 +9,8 @@ class VendingMachine extends Component {
 
     // VendingMachine is essentially a nav component
 
+    // Try to implement props child soon for styling
+
     constructor(props) {
         super(props)
     }
