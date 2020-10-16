@@ -32,7 +32,7 @@ a {
 .App nav {
   display: flex;
   flex-direction: column;
-  background-color: rgb(100, 105, 110);
+  background-color: rgb(102, 106, 110);
   padding: 50px;
 }
 
